@@ -1,0 +1,157 @@
+body{
+    font-family: 'Nunito', sans-serif; 
+}
+ 
+
+.header-menu{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+header{
+    display: block;
+}
+.header-menu .content {
+    padding: 30px 35px 15px 35px;
+}
+
+.header-menu .content .left-side{
+    float: left;
+}
+.header-menu .content .right-side{
+    float: right;
+}
+
+.button-link{
+    display: inline-block;
+    background: rgb(34, 109, 194) ;
+    width: 205px;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button-link:hover{
+    background: white;
+    color: rgb(34, 109, 194) ;
+}
+
+.header-block{
+    background: rgba(6, 51, 113, 0.4); 
+    min-height: 100vh;
+}
+
+.img-svg {
+    fill: white;
+}
+.header-title{
+    display: flex;
+    margin-top: 30%;
+    color: white;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.main-block{
+    display: block;
+    position: absolute;
+    top:35%;
+    left: 11.7%;
+    color: white;
+    
+}
+
+.main-block h2{
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 400;
+}
+.main-block h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.btn-groups{
+    display: block;
+    margin-top: 40px ;
+}
+.btn-groups a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.bnt-simple{
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 4px;
+    vertical-align: top;
+    padding: 15px 29px;
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.bnt-simple:hover{
+    background: rgb(34, 109, 194);
+    color: #ffffff;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+footer .content{
+    padding: 35px 35px 35px 40px;
+}
+footer .content .left-side{
+    float: left;
+}
+footer .right-side{
+    float: right;
+}
+
+.footer__divider{
+    display: inline-block;
+    height: 1px;
+    width: 40px;
+    background: white;
+    vertical-align: middle;
+}
+
+.footer-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.form-back{
+    display: block;
+    width: 772px;
+    height: 598px!important;
+    position: absolute;
+    left: 50%;
+    /* bottom: 100%; */
+    background: white;
+    z-index: 100;
+    transition: .3s;
+
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700; 
+    color:white;
+}  
+
+
+@media (max-width: 576px) {
+
+
+}
+
