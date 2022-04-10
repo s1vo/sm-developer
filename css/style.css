@@ -150,8 +150,38 @@ footer .right-side{
 }  
 
 
-@media (max-width: 576px) {
+@media screen and (max-width: 980px) {
 
+    .main-block h2{
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    .main-block h4{
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+    .main-block{
+        font-size: 13px;
+    }
+    .btn-groups{
+        margin-top: 15px;
+    }
+    .bnt-simple{
+        font-size: 12px;
+        padding: 7px;
+        margin-right: 6px;
+    }
+    .footer-icon{
+        width: 15px;
+        margin-right: 5px;
+    }
 
+    .button-link{
+        width: 125px;
+        font-size: 15px;
+        padding: 10px;
+    }
 }
-
